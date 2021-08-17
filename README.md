@@ -43,6 +43,9 @@ pip install uvicorn
 # iniciar o servidor
 uvicorn main:app --reload
 
+# acessar a documentação no navegador após o servidor ser iniciado
+http://{host}:{port}/docs
+
 ```
 
 # Autor
