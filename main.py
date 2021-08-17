@@ -39,5 +39,5 @@ def create_user(user: Usuario):
     for usuario in base_de_dados:
         if(usuario.email == user.email):
             return {"Status": 406, "Mensagem": "Usuário já cadastrado."}
-    base_de_dados.append(usuario)
+    base_de_dados.append(user)
     return {"Status": 201, "Mensagem": "Usuário criado."}
