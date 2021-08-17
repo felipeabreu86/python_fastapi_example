@@ -37,8 +37,8 @@ cd python_fastapi_example
 # instalar o framework FastAPI
 pip install fastapi
 
-# instalar o servidor ASGI Unicorn
-pip install unicorn
+# instalar o servidor ASGI Uvicorn
+pip install uvicorn
 
 # iniciar o servidor
 uvicorn main:app --reload
