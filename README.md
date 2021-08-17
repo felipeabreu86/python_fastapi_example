@@ -7,7 +7,7 @@
 
 A API consiste em manter usuários em uma base de dados.
 
-## Layout Web
+## Layout Web / Documentação
 ![Web 1](https://github.com/felipeabreu86/python_fastapi_example/blob/main/assets/screens/web1.png)
 
 # Tecnologias Utilizadas
